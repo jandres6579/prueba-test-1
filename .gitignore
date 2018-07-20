@@ -1,2 +1,3 @@
 entorno_virtual/
 *.pyc
+src/.pytest_cache/
