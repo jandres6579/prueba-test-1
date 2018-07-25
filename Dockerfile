@@ -9,4 +9,6 @@ RUN pip install -r /opt/app_jenkins_test/requirements.txt
 
 COPY docker-entrypoint.sh /
 
+EXPOSE 5000
+
 ENTRYPOINT "/docker-entrypoint.sh"
