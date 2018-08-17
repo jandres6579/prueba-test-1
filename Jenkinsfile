@@ -34,7 +34,7 @@ pipeline {
                 '''
             }
         }
-/*
+
         stage('RunningApp') {
             steps {
                 echo 'Ejecutando aplicación...'
@@ -97,7 +97,7 @@ pipeline {
                 '''
             }
         }
-*/
+
     }
 }
 
