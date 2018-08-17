@@ -25,7 +25,7 @@ pipeline {
                 '''
             }
         }
-/*
+
         stage('TestingApp') {
             steps {
                 echo 'Realizando testeo...'
@@ -34,7 +34,7 @@ pipeline {
                 '''
             }
         }
-
+/*
         stage('RunningApp') {
             steps {
                 echo 'Ejecutando aplicación...'
