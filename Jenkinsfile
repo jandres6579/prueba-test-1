@@ -25,7 +25,7 @@ pipeline {
                 '''
             }
         }
-
+/*
         stage('TestingApp') {
             steps {
                 echo 'Realizando testeo...'
@@ -97,11 +97,13 @@ pipeline {
                 '''
             }
         }
-
+*/
     }
 }
 
 /*
+
+
 #!/bin/bash
 echo '********* INICIO PROCESO ************'
 echo 'Creando entorno virtual'
