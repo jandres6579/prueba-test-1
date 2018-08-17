@@ -84,7 +84,7 @@ pipeline {
             steps {
                 echo 'Borrando imagen local...'
                 sh '''
-                    docker rmi testjenkinsdocker:latest
+                    docker rmi jandres6579/testjenkinsdocker:latest
                 '''
             }
         }
