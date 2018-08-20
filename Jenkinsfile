@@ -39,6 +39,7 @@ pipeline {
             steps {
                 echo 'Ejecutando aplicación...'
                 sh '''
+                    #De esta forma se pueden añadi comentarios.
                     bash -c "source ${WORKSPACE}/entorno_virtual/bin/activate && cd src && ${WORKSPACE}/entorno_virtual/bin/python src/main.py &"
                 '''
             }
