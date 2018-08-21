@@ -1,7 +1,9 @@
 // comments
 pipeline {
     agent any
-
+    triggers {
+        cron('H/20 * * * *')
+    }
     stages {
         stage('CheckOut-Git') {
             steps {
