@@ -13,7 +13,7 @@ def test_sumaOK_prueba2():
     assert suma(5,7)==12
 
 def test_sumaOK_prueba2():
-    assert suma(5,7)==13
+    assert suma(6,7)==13
 
 # Si descomentamos este error el Pipeline falla en todos los puntos posteiores al testeo.
 #def test_sumaError():
