@@ -1,11 +1,11 @@
 // comments
 pipeline {
     agent any
-/*  //para hacer el build de los procesos de forma periodica (cada 15 minutos)
+    //para hacer el build de los procesos de forma periodica (cada 45 minutos)
     triggers {
-        cron('H/15 * * * *')
+        cron('H/17 * * * *')
     }
-*/    
+    
     stages {
         stage('CheckOut-Git') {
             steps {
